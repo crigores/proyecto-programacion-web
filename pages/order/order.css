@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(5, 4, 4);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(240, 237, 231);
+}
+
+.top {
+    background-color: rgb(0, 43, 142);
+    height: 60px;
+}
+
+.config {
+    padding-top: 10px;
+    padding-left: 10%;
+    color: white;
+}
+
+.pedidos {
+    width: 80%;
+    margin: 1em auto;
+    background-color: rgb(255, 255, 255);
+    border-top: solid 1px rgb(0, 43, 142);
+    height: 90%;
+    pointer-events: visible;
+}
+
+
+.inputs {
+    margin: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input1 {
+    border-radius: 3px;
+    border: .5px solid rgb(32, 32, 32);
+    width: 47%;
+}
+
+.inputTitulo {
+    font-size: x-small;
+    color: gray;
+}
+
+.CB1 {
+    border: #ccc;
+    height: 30px;
+    width: 95%;
+    text-align: end;
+    outline: none;
+}
+
+.input2 {
+    border-radius: 3px;
+    border: .5px solid rgb(32, 32, 32);
+    width: 46%;
+}
+
+.inputTitulo1 {
+    font-size: x-small;
+    color: black;
+    background-color: gray;
+}
+
+.CB2 {
+    border: #ccc;
+    height: 30px;
+    width: 95%;
+    text-align: end;
+    outline: none;
+    background-color: gray;
+}
+
+.CB2::placeholder {
+    color: black;
+}
+
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.T1 {
+    background-color: rgb(240, 237, 231);
+    margin: 4%;
+    padding: 2%;
+    border-left: solid 3px rgb(0, 43, 142);
+}
+
+.T2[data-toggle="bs"] {
+    display: none;
+}
+
+.T3[data-toggle="usd"] {
+    display: none;
+}
+
+.T4 {
+    color: rgb(0, 43, 142);
+    font-weight: bold;
+}
+
+.T5[data-toggle="nt"] {
+    display: none;
+}
+
+.T6[data-toggle="st"] {
+    display: none;
+}
+
+.select-container {
+    width: 92%;
+    margin: auto;
+}
+
+.selected-option {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    background-color: white;
+    border-radius: 3px;
+    border: .5px solid rgb(32, 32, 32);
+}
+
+.icon,
+.select-value {
+    padding: 5px 15px;
+}
+
+.icon {
+    border-left: .5px solid rgb(32, 32, 32);
+}
+
+.options {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 5px;
+    border: .5px solid #ccc;
+    border-radius: 3px;
+}
+
+.options[data-toggle="collapsed"] {
+    display: none;
+}
+
+.option {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: whitesmoke;
+}
+
+
+.transferencia[data-toggle="collapsed"] {
+    display: none;
+}
+
+
+.botones {
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+}
+
+.aceptar {
+    color: white;
+    background-color: rgb(0, 176, 80);
+    border: .5px solid rgb(32, 32, 32);
+    cursor: pointer;
+}
+
+.cancelar {
+    background-color: rgb(194, 189, 189);
+    border: .5px solid rgb(32, 32, 32);
+    cursor: pointer;
+}
+
+input {
+    margin-right: 15px;
+    height: 30px;
+    width: 100px;
+}
+
+.confirmacion {
+    width: 50%;
+    height: 90%;
+    margin: 1em auto;
+    background-color: rgb(255, 255, 255);
+    border-top: 1px solid rgb(0, 176, 80);
+    text-align: center;
+    align-items: center;
+}
+
+.confirmacion h3 {
+    margin: 15px auto;
+}
+
+.cc {
+    margin: 20px auto;
+}
+
+.container-div1 {
+    margin: 50px auto;
+    text-align: left;
+
+}
