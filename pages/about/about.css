@@ -2,13 +2,13 @@ body{
     margin: 0;
 }
 
-
 a {
     text-decoration: none;
 }
 
 p {
     text-align: justify;
+    margin: 25px 0;
 }
 
 img {
@@ -41,6 +41,10 @@ img {
 
 .contactInfo__socialmedia--flex a {
     font-size: 25px;
+}
+
+.contact__description {
+    margin: 25px 0;
 }
 
 @media screen and (min-width : 768px) {

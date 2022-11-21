@@ -43,7 +43,7 @@
 
             <div id="sub">
                 <input class="i2" type="submit" value="Registrar"> <br>
-                <a href="login.html"> Regresar al login </a>
+                <a href="../login/login.php"> Regresar al login </a>
             </div>
         </form>
     </div>

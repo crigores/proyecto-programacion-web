@@ -10,6 +10,15 @@ body {
 }
 
 /* MAIN TAG */
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-name {
+	margin-left: 10px;
+}
 
 .background-hero {
 	height: 100vh;
@@ -19,15 +28,74 @@ body {
 	background-image: url('./assets/img/438394.jpg');
 }
 
-.logo{
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.hero-description--grid {
+	display: grid;
+	place-content: center;
+	text-align: center;
+	font-size: 48px;
 }
 
-.logo-name {
-	margin-left: 10px;
+/* animaciono de aguatech */
+
+.Aqua {
+	font-size: 60px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 30%;
 }
+
+.tech {
+	-webkit-text-stroke: black 1px;
+}
+
+.border .tech {
+	color: white;
+}
+.border {
+	color: black;
+	text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 white,
+		-1px 1px 0 white,
+		1px 1px 0 white;
+}
+
+.wave {
+	color: #09f;
+	animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+
+	0%,
+	100% {
+		clip-path: polygon(0% 47%,
+				10% 48%,
+				33% 54%,
+				54% 60%,
+				70% 61%,
+				84% 59%,
+				100% 52%,
+				100% 100%,
+				0% 100%);
+	}
+
+	50% {
+		clip-path: polygon(0% 60%,
+				15% 65%,
+				34% 66%,
+				51% 62%,
+				67% 50%,
+				84% 45%,
+				100% 46%,
+				100% 100%,
+				0% 100%);
+	}
+}
+
+/* animaciono de aguatech */
+
 
 .product-section,
 .client-section {
@@ -56,10 +124,6 @@ body {
 	margin: 50px 0;
 }
 
-.client:last-child {
-	margin-bottom: 0;
-}
-
 .client-name {
 	margin: 5px;
 }
@@ -85,6 +149,13 @@ body {
 
 h3 {
 	text-align: center;
+}
+
+
+
+.hero-subtitle {
+	font-size: 25px;
+	font-weight: 500;
 }
 
 /* MORE ABOUT US SECTION */
@@ -132,7 +203,7 @@ h3 {
 	margin: 0 auto;
 }
 
-.about-info{
+.about-info {
 	margin-top: 25px;
 	display: grid;
 	place-items: center;
@@ -165,10 +236,22 @@ h3 {
 
 /* TABLET */
 @media screen and (min-width: 660px) {
+	.Aqua {
+		font-size: 100px;
+	}
+
+	.hero-subtitle{
+		margin-top: 50px;
+	}
+
+	.tech {
+		-webkit-text-stroke: 2px black;
+	}
+
 	.product-section {
 		display: grid;
-    grid-template-columns: 1fr 2fr;
-    place-items: center;
+		grid-template-columns: 1fr 2fr;
+		place-items: center;
 		gap: 25px;
 	}
 
@@ -196,7 +279,7 @@ h3 {
 		gap: 25px;
 	}
 
-	.about-info{
+	.about-info {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
@@ -205,7 +288,7 @@ h3 {
 	}
 
 	.about-info,
-	.btn{
+	.btn {
 		margin: 0;
 	}
 

@@ -15,31 +15,16 @@
 </head>
 
 <body>
-    <header class="header">
-        <nav class="nav">
-            <a href="#" class="logo nav-link">
-                <img class="logo-img" src="../../assets/img/logo.png" alt="">
-                <span class="logo-name">AquaTech</span>
-            </a>
-            <button class="nav-toggle" aria-label="Abrir menú">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul class="nav-menu">
-                <li class="nav-menu-item">
-                    <a href="./pages/about/about.php" class="nav-menu-link nav-link">Contactanos</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="./pages/confirmPayment/confirmPayment.php" class="nav-menu-link nav-link">Confirmar Pago</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="./pages/login/login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <?php 
+    include('./templates/header/header.php')
+    ?>
 
     <main>
-        <figure class="background-hero"></figure>
+        <figure class="background-hero hero-description--grid">
+            <h1 class="Aqua border">Aqua<span class="tech">Tech</span></h1>
+            <h1 class="Aqua wave">Aqua<span class="tech">Tech</span></h1>
+            <p class="hero-subtitle">Tu surtidora de agua de confianza</p>
+        </figure>
 
         <section class="section product-section">
             <p>

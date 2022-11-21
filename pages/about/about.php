@@ -2,36 +2,14 @@
 <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 <script src="https://kit.fontawesome.com/9f748bd1d7.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="./about.css">
-<link rel="stylesheet" href="../../templates/header/header.css">
 <link rel="stylesheet" href="../../templates/footer/footer.css">
+<link rel="stylesheet" href="../../templates/header/header.css">
+<link rel="stylesheet" href="../../index.css">
+<link rel="stylesheet" href="../../index.js">
 
 <?php
-    // include('../../templates/header/header.php')
+    include('../../templates/header/header.php')
 ?>
-
-<header class="header">
-        <nav class="nav">
-            <a href="../../index.php" class="logo nav-link">
-                <img class="logo-img" src="../../assets/img/logo.png" alt="">
-                <span class="logo-name">AquaTech</span>
-            </a>
-            <button class="nav-toggle" aria-label="Abrir menú">
-                <i class="fas fa-bars"></i>
-            </button>
-            <ul class="nav-menu">
-                <li class="nav-menu-item">
-                    <a href="./pages/login/login.php" class="nav-menu-link nav-link">Contactanos</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="./pages/confirmPayment/confirmPayment.php"
-                    class="nav-menu-link nav-link">Confirmar Pago</a>
-                </li>
-                <li class="nav-menu-item">
-                    <a href="./pages/login/login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>
-                </li>
-            </ul>
-        </nav>
-</header>
 
 <main class="mainContact">
     <div class="container">
@@ -39,7 +17,7 @@
 
             <div class="contactInfo">
                 <h2>Contactanos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium iure accusamus debitis aliquid, earum error animi dolorum inventore porro autem soluta cumque, quam recusandae aliquam ipsa natus nostrum explicabo.</p>
+                <p class="contact__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui laudantium iure accusamus debitis aliquid, earum error animi dolorum inventore porro autem soluta cumque, quam recusandae aliquam ipsa natus nostrum explicabo.</p>
 
                 <div class="contactInfo__socialmedia">
                     <section class="contactInfo__socialmedia--flex">

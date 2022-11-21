@@ -1,3 +1,25 @@
+:root {
+    --blue: #3490dc;
+    --dark: #343a40;
+}
+
 footer {
+    margin-top: auto;
+    background-color: var(--dark);
+}
+
+.footer__content {
+    height: 8rem;
+    display: grid;
+    place-items: center;
+}
+
+.footer__copyright {
+    color: var(--white);
+    font-weight: bold;
     text-align: center;
+}
+
+.footer__copyright span {
+    color: var(--purple);
 }

@@ -9,14 +9,14 @@
             </button>
             <ul class="nav-menu">
                 <li class="nav-menu-item">
-                    <a href="../../pages/about/about.php" class="nav-menu-link nav-link">Contactanos</a>
+                    <a href="./pages/about/about.php" class="nav-menu-link nav-link">Contactanos</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="../../pages/confirmPayment/confirmPayment.php"
+                    <a href="./pages/confirmPayment/confirmPayment.php"
                     class="nav-menu-link nav-link">Confirmar Pago</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="../../pages/login/login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>
+                    <a href="./pages/login/login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>
                 </li>
             </ul>
         </nav>
