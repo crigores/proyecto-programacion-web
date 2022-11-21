@@ -16,7 +16,17 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url('./assets/img/wallpaper.png');
+	background-image: url('./assets/img/438394.jpg');
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo-name {
+	margin-left: 10px;
 }
 
 .product-section,
@@ -228,4 +238,5 @@ h3 {
 	.form-section {
 		padding: 50px 100px;
 	}
+
 }

@@ -2,7 +2,7 @@
         <nav class="nav">
             <a href="../../index.php" class="logo nav-link">
                 <img class="logo-img" src="../../assets/img/logo.png" alt="">
-                <span>AquaTech</span>
+                <span class="logo-name">AquaTech</span>
             </a>
             <button class="nav-toggle" aria-label="Abrir menú">
                 <i class="fas fa-bars"></i>
@@ -12,10 +12,11 @@
                     <a href="../../pages/about/about.php" class="nav-menu-link nav-link">Contactanos</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="../../pages/login/login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>
+                    <a href="../../pages/confirmPayment/confirmPayment.php"
+                    class="nav-menu-link nav-link">Confirmar Pago</a>
                 </li>
                 <li class="nav-menu-item">
-                    <a href="./pages/confirmPayment/confirmPayment.php" class="nav-menu-link nav-link nav-menu-link_active">Confirm Payment</a>
+                    <a href="../../pages/login/login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>
                 </li>
             </ul>
         </nav>

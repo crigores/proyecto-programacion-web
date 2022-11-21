@@ -6,9 +6,6 @@
         <link rel="stylesheet" href="login.css">
     </head>
     <body>
-        <?php
-            include('./templates/header/header.php')
-        ?>
         <div class="login-box">
             <img class="avatar" src="imagenes/logo.jpg" alt="">
             <h1>Iniciar sesión</h1>

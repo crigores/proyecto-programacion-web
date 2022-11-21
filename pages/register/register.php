@@ -8,11 +8,6 @@
 </head>
 
 <body id="body2">
-
-    <?php
-    include("./templates/header/header.php")
-    ?>
-
     <div class="login-box2">
         <img class="avatar2" src="../login/imagenes/logo.jpg" alt="">
         <h1>Registrar Usuarios</h1>

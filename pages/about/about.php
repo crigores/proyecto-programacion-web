@@ -6,8 +6,32 @@
 <link rel="stylesheet" href="../../templates/footer/footer.css">
 
 <?php
-    include('../../templates/header/header.php')
+    // include('../../templates/header/header.php')
 ?>
+
+<header class="header">
+        <nav class="nav">
+            <a href="../../index.php" class="logo nav-link">
+                <img class="logo-img" src="../../assets/img/logo.png" alt="">
+                <span class="logo-name">AquaTech</span>
+            </a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="./pages/login/login.php" class="nav-menu-link nav-link">Contactanos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./pages/confirmPayment/confirmPayment.php"
+                    class="nav-menu-link nav-link">Confirmar Pago</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./pages/login/login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>
+                </li>
+            </ul>
+        </nav>
+</header>
 
 <main class="mainContact">
     <div class="container">
@@ -29,13 +53,13 @@
                         <a href="#" class="fa-solid fa-envelope"></a>
                         <div>
                             <p>Correo Electronico</p>
-                            <span>tuki.streaming2022@gmail.com</span>
+                            <span>AquaTech</span>
                         </div>
                     </section>
 
                     <hr>
                     <section class="contactInfo__socialmedia--flex">
-                        <h5>Más información en: </h5>
+                        <p>Más información en: </p>
                         <a href="#" class="fa-brands fa-facebook"></a>
                         <a href="#" class="fa-brands fa-twitter"></a>
                         <a href="#" class="fa-brands fa-instagram"></a>

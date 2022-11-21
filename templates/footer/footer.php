@@ -1,5 +1,5 @@
 <footer class="footer">
   <div class="container">
-    <small>&copy; 2022 <b>TUKI STREAMING</b> - Todos los Derechos Reservados.</small>
+    <small>&copy; 2022 <b>AquaTech</b> - Todos los Derechos Reservados.</small>
   </div>
 </footer>

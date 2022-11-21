@@ -15,9 +15,28 @@
 </head>
 
 <body>
-    <?php
-        include("./templates/header/header.php");
-    ?>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo nav-link">
+                <img class="logo-img" src="../../assets/img/logo.png" alt="">
+                <span class="logo-name">AquaTech</span>
+            </a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="./pages/about/about.php" class="nav-menu-link nav-link">Contactanos</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./pages/confirmPayment/confirmPayment.php" class="nav-menu-link nav-link">Confirmar Pago</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="./pages/login/login.php" class="nav-menu-link nav-link nav-menu-link_active">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
         <figure class="background-hero"></figure>
@@ -68,7 +87,7 @@
                     obcaecati deserunt aliquam fugiat.
                 </p>
 
-                <a class="btn first" href="./pages/about/about.html">MORE ABOUT US</a>
+                <a class="btn first" href="./pages/about/about.php">MORE ABOUT US</a>
             </div>
         </section>
 
@@ -109,15 +128,14 @@
                 <label for="email">Email</label>
                 <input class="input" type="text" id="email" required placeholder="type your addres">
                 <label for="comment">Comment</label>
-                <textarea class="textarea" name="" id="comment" cols="30" rows="10"
-                    placeholder="type your comment"></textarea>
+                <textarea class="textarea" name="" id="comment" cols="30" rows="10" placeholder="type your comment"></textarea>
                 <input class="btn btn-input" type="submit" value="Post Comment">
             </form>
         </section>
     </main>
 
     <?php
-        include("./templates/footer/footer.php");
+    include("./templates/footer/footer.php");
     ?>
 
     <script src="./index.js"></script>

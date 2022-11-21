@@ -1,43 +1,51 @@
+body{
+    margin: 0;
+}
+
+
 a {
     text-decoration: none;
 }
 
-.mainContact{
-    display: grid;
-    place-content: center;
-    margin: 0 5rem;
-}
-
-.mainContact__content{
-    margin: 45px 0;
-    padding: 0 10px;
+p {
     text-align: justify;
 }
 
-.contactInfo__socialmedia--flex{
+img {
+    height: 45px;
+}
+
+.mainContact {
+    margin: 50px;
+}
+
+.mainContact__content--grid {
+    display: grid;
+    place-items: center;
+    gap: 25px;
+}
+
+.contactInfo__socialmedia--flex {
     display: flex;
     align-items: center;
-    gap: 15px;
 }
 
-.googleMaps{
-    text-align: center;
-    margin: 20px 0;
+.contactInfo__socialmedia--flex div,
+.contactInfo__socialmedia--flex a {
+    margin-left: 15px;
 }
 
-@media screen and (min-width: 600px){
+.contactInfo__socialmedia--flex div p {
+    display: inline-block;
+}
+
+.contactInfo__socialmedia--flex a {
+    font-size: 25px;
+}
+
+@media screen and (min-width : 768px) {
     .mainContact__content--grid{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        place-items: center;
+        grid-template-columns: 1fr 1fr;
     }
-
-    .googleMaps{
-        margin: 0;
-    }
-}
-
-body{
-    margin: 0;
-    padding: 0;
 }
