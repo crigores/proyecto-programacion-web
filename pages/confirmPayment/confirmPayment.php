@@ -9,11 +9,12 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="../../templates/header/header.css">
     <title>Confirm Payment</title>
   </head>
   <body>
     <?php
-        // include("../../templates/header/header.php");
+      include("../../templates/header/header.php");
     ?>
 
     <header class="confirmPayment_Header">

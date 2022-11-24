@@ -12,6 +12,10 @@
         <h1 class="config">Realizar pedido de recarga</h1>
     </div>
 
+    <div class="exito">
+        <h1>Compra realizada con exito!</h1>
+    </div>
+
     <div class="confirmacion" id="C">
         <form action="">
             <h3>Compruebe que los datos seleccionados <span style="color:rgb(0, 176, 80);">sean correctos</span></h3>

@@ -8,8 +8,8 @@ const optionContainer6 = document.querySelector('.T6')
 
 /** Toggle function */
 
-const selectToggle = ()=> {
-    if(optionContainer.dataset.toggle == 'collapsed') {
+const selectToggle = () => {
+    if (optionContainer.dataset.toggle == 'collapsed') {
         optionContainer.dataset.toggle = ''
     } else {
         optionContainer.dataset.toggle = 'collapsed'
@@ -25,15 +25,24 @@ selectedOption.addEventListener('click', selectToggle)
 const updateSelectValue = (option) => {
     selectValue.innerText = option.innerText;
 
-    if(selectValue.innerText == 'Dolares(USD)'){ optionContainer5.dataset.toggle = '', optionContainer6.dataset.toggle = 'st'}
-    if(selectValue.innerText == 'Trasferencia(Bs.)'){ optionContainer2.dataset.toggle = '', optionContainer5.dataset.toggle = 'nt', optionContainer6.dataset.toggle = ''} else {
+    if (selectValue.innerText == 'Dolares(USD)') { optionContainer5.dataset.toggle = '', optionContainer6.dataset.toggle = 'st' }
+    if (selectValue.innerText == 'Trasferencia(Bs.)') { optionContainer2.dataset.toggle = '', optionContainer5.dataset.toggle = 'nt', optionContainer6.dataset.toggle = '' } else {
         optionContainer2.dataset.toggle = 'collapsed'
     }
 }
 
 optionList.forEach((option) => {
-    option.addEventListener('click', (e)=> {
+    option.addEventListener('click', (e) => {
         updateSelectValue(option)
         selectToggle()
     })
 })
+
+const priceMount = document.getElementById('monto_total');
+priceMount.addEventListener('change', priceMount)
+
+function priceOnChange() {
+    console.log('algo')
+    document.getElementById('monto_total').value = event.target.value
+}
+

@@ -9,14 +9,14 @@
         <div class="login-box">
             <img class="avatar" src="imagenes/logo.jpg" alt="">
             <h1>Iniciar sesión</h1>
-            <form action="validar.php" method="POST">
+            <form action="../../server/validacion.php" method="POST">
                 <!-- USERNAME-->
                 <label for="usermane">Numero de cedula</label>
-                <input name="Iu" type="text" placeholder= "Ingresa el numero de cedula" required="">
+                <input name="ci" type="text" placeholder= "Ingresa el numero de cedula" required="">
 
                 <!-- PASSWORD-->
                 <label for="password">Contraseña</label>
-                <input name="Ic" type="text" placeholder= "Ingresa la contraseña" required="">
+                <input name="pass" type="text" placeholder= "Ingresa la contraseña" required="">
                 <input type="submit" value="Ingresar">
                 <a href="#">¿Olvidaste la contraseña?</a><br>
                 <a href="../register/register.php">¿No tienes una cuenta?</a>
